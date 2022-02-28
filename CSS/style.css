@@ -1,0 +1,32 @@
+body {
+    background-color: #2D2929;
+    color: #fff;
+}
+
+/* HEADER */
+
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo .logo-big {
+    color: #FFDD00;
+    font-size: 24px;
+}
+
+#search input{
+    background-color: #605A5A;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    height: 30px;
+    padding-left: 10px;
+    width: 300px;  
+}
+
+#search input:focus{
+    outline: 1px #FFDD00 solid;
+    box-shadow: 0 0px 4px 2px #FFDD00;
+}
